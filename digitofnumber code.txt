@@ -1,0 +1,29 @@
+using System;
+
+namespace hometask4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int digit = 1;
+            int n = 90000;
+            if (n >= 10)
+            {
+                while (n >= 10)
+                {
+                    n /= 10;
+                    digit++;
+                }
+                {
+                    Console.WriteLine(digit);
+                }
+            }
+            else
+            {
+                Console.WriteLine(digit);
+            }
+
+        }
+    }
+}
