@@ -1,0 +1,56 @@
+using System;
+
+namespace nurlanhometask
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int score = 52;
+            if (score >= 0 && score <= 100)
+            {
+                if (score >= 91)
+                {
+                    Console.WriteLine("A");
+                }
+                else
+                {
+                    if (score >= 81)
+                    {
+                        Console.WriteLine("B");
+                    }
+                    else
+                    {
+                        if (score >= 71)
+                        {
+                            Console.WriteLine("C");
+                        }
+                        else
+                        {
+                            if (score >= 61)
+                            {
+                                Console.WriteLine("D");
+                            }
+                            else
+                            {
+                                if (score >= 51)
+                                {
+                                    Console.WriteLine("E");
+                                }
+                                else
+                                {
+                                    Console.WriteLine("You have failed");
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+            }else
+            {
+                Console.WriteLine("Select other number");
+            }
+        }
+    }
+}

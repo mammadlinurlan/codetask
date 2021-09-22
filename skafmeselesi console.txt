@@ -1,0 +1,28 @@
+using System;
+
+namespace nurlanhometask2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x = 5;
+            int y = 60;
+            int z = 20;
+            int a = 10;
+            int b = 12;
+            int wardrobeArea1 = x * y;
+            int wardrobeArea2 = x * z;
+            int wardrobeArea3 = y * z;
+            int doorArea = a * b;
+            if (wardrobeArea1 < doorArea || wardrobeArea2 < doorArea || wardrobeArea3 < doorArea)
+            {
+                Console.WriteLine("true");
+            }
+            else
+            {
+                Console.WriteLine("false");
+            }
+        }
+    }
+}
